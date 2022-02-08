@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Chad2.Core\Crawling.Chad2.Core.csproj" />
+    <ProjectReference Include="..\Connector.DataDefinition\Connector.DataDefinition.csproj" />
+  </ItemGroup>
+</Project>

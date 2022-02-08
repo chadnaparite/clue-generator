@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="CluedIn.Core" />
+    <PackageReference Include="CluedIn.Core.Agent" />
+    <PackageReference Include="CluedIn.Crawling" />
+    <PackageReference Include="CluedIn.Server.Common.WebApi" />
+    <PackageReference Include="CluedIn.Agent" />
+    <PackageReference Include="CluedIn.Connector.Common" />
+  </ItemGroup>
+</Project>

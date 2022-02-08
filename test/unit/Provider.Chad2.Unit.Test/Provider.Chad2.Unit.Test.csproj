@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Chad2.Provider\Provider.Chad2.csproj" />
+  </ItemGroup>
+</Project>

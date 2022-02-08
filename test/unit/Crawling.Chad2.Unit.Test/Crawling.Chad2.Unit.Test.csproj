@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Chad2.Core\Crawling.Chad2.Core.csproj" />
+    <ProjectReference Include="..\..\..\src\Chad2.Crawling\Crawling.Chad2.csproj" />
+    <ProjectReference Include="..\..\..\src\Chad2.Infrastructure\Crawling.Chad2.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
