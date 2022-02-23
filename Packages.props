@@ -36,6 +36,7 @@
     <PackageReference Update="CluedIn.Server.Common.WebApi" Version="$(_CluedIn)" />
     <PackageReference Update="CluedIn.Agent" Version="$(_CluedIn)" />
     <PackageReference Update="CluedIn.Connector.Common" Version="$(_CluedIn)" />
+    <PackageReference Update="CluedIn.Processing" Version="$(_CluedIn)" />
 
   </ItemGroup>
 </Project>

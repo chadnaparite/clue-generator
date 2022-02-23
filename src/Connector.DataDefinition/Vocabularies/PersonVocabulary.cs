@@ -15,6 +15,7 @@ namespace CluedIn.Connector.DataDefinition.Vocabularies
             //TODO: Make sure that any properties mapped into CluedIn Vocabulary are not in the group.
             AddGroup("Chad Person Details", group =>
             {
+                GCI = group.Add(new VocabularyKey("GCI", VocabularyKeyDataType.Text, VocabularyKeyVisibility.Visible));
                 Id = group.Add(new VocabularyKey("Id", VocabularyKeyDataType.Text, VocabularyKeyVisibility.Visible));
                 FirstName = group.Add(new VocabularyKey("FirstName", VocabularyKeyDataType.Text, VocabularyKeyVisibility.Visible));
                 MiddleName = group.Add(new VocabularyKey("MiddleName", VocabularyKeyDataType.Text, VocabularyKeyVisibility.Visible));
@@ -28,6 +29,7 @@ namespace CluedIn.Connector.DataDefinition.Vocabularies
         
         }
 
+        public VocabularyKey GCI { get; private set; }
         public VocabularyKey Id { get; private set; }
         
         public VocabularyKey FirstName { get; private set; }

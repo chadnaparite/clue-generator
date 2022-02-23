@@ -37,6 +37,7 @@ namespace CluedIn.Connector.DataDefinition.ClueGenerator
 
             //TODO: Mapping data into general properties metadata bag.
             //TODO: You should make sure as much data is mapped into specific metadata fields, rather than general .properties. bag.
+            data.Properties[personVocabulary.GCI] = input.GCI.PrintIfAvailable();
             data.Properties[personVocabulary.Id] = input.Id.PrintIfAvailable();
             data.Properties[personVocabulary.FirstName] = input.FirstName.PrintIfAvailable();
             data.Properties[personVocabulary.MiddleName] = input.MiddleName.PrintIfAvailable();

@@ -11,6 +11,9 @@ namespace CluedIn.Connector.DataDefinition.Models
         [JsonProperty("Id")]
         public string Id {get; set;}
 
+        [JsonProperty("GCI")]
+        public string GCI { get; set;}
+
         [JsonProperty("FirstName")]
         public string FirstName {get; set;}
 
