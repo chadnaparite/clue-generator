@@ -74,7 +74,7 @@ namespace CluedIn.Crawling.Chad1.Infrastructure
         {
             return new List<Person>
             {
-                new Person { GCI = new Guid("3F2504E0-4F89-11D3-9A0C-0305E82C3301").ToString(), Id = "Cust01", FirstName = "Richard 01", LastName = "Naparite", OrganizationId = "Org01" }
+                new Person { GCI = "3F2504E0-4F89-11D3-9A0C-0305E82C3301", Id = "Cust01", FirstName = "Richard 01", LastName = "Naparite", OrganizationId = "Org01" }
             };
         }
 
